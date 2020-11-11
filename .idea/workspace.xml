@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b03885b-36f0-4253-9ac6-8a54de6a5359" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H02/Artikel.html" beforeDir="false" afterPath="$PROJECT_DIR$/H02/Artikel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,10 @@
       <option name="presentableId" value="Default" />
       <updated>1604925986274</updated>
       <workItem from="1604925987358" duration="2811000" />
-      <workItem from="1604993781177" duration="3640000" />
+      <workItem from="1604993781177" duration="5568000" />
+      <workItem from="1605002323197" duration="2000" />
+      <workItem from="1605082475470" duration="9442000" />
+      <workItem from="1605102409621" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="H1 af">
       <created>1604926614342</created>
@@ -101,7 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604997842290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ik heb alt toegevoegd bij de plaatjes en lorem ipsum">
+      <created>1604999954839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604999954839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="H1 af">
+      <created>1605000602596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605000602596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="opdracht 1 tabel 2 af">
+      <created>1605086215522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605086215523</updated>
+    </task>
+    <task id="LOCAL-00008" summary="opdracht 2 tabel 6 af">
+      <created>1605088108737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605088108737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,13 +147,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="H1 af" />
     <MESSAGE value="testing netlify" />
     <MESSAGE value="ik heb links toegevoegd en plaatjes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ik heb links toegevoegd en plaatjes" />
+    <MESSAGE value="ik heb alt toegevoegd bij de plaatjes en lorem ipsum" />
+    <MESSAGE value="H1 af" />
+    <MESSAGE value="opdracht 1 tabel 2 af" />
+    <MESSAGE value="opdracht 2 tabel 6 af" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht 2 tabel 6 af" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2638" y="403" key="Github.ShareDialog" timestamp="1604926549850">
@@ -134,9 +168,13 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2571" y="210" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1604926555062" />
-    <state x="2352" y="238" key="Vcs.Push.Dialog.v2" timestamp="1604997844352">
+    <state x="2352" y="238" key="Vcs.Push.Dialog.v2" timestamp="1605088110344">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2352" y="238" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1604997844352" />
+    <state x="2352" y="238" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1605088110344" />
+    <state x="2416" y="233" key="run.anything.popup" timestamp="1605086822593">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2416" y="233" key="run.anything.popup/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1605086822593" />
   </component>
 </project>
