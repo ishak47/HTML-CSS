@@ -23,13 +23,13 @@ div.wrapper{
 
 article{
     float: left;
-    width: 50%;
-    margin-right: 30px;
-    margin-top: 30px;
+    width: 49%;
+    margin-right: 2%;
+    margin-top:  30px;
 }
 
 table{
-    width: 50%;
+    width: 49%;
     border: 1px solid black;
     border-collapse: collapse;
     margin-top: 30px;
