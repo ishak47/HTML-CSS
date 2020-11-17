@@ -1,25 +1,94 @@
 body{
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
+    line-height: 20px;
+    margin-left: 20px;
 }
 
  h2{
      padding:10px;
  }
 
- ul.ullistone{
-     list-style-type: none;
-     padding:0 ;
- }
-
- div.input{
-    width: 20px;
- }
-
- div.inputgeslacht{
-     margin-top: 10px;
-     margin-bottom: 10px;
+ul.ullistone{
+    list-style-type: none;
+    padding: 10px;
 }
 
- div.inputooglkeur{
+div.naam{
+    padding: 20px 0px;
+    width: 380px;
+}
 
- }
+.naam input{
+    float: right;
+}
+
+div.inputgeslacht{
+    width: 380px;
+
+}
+
+div.man{
+    display: inline;
+    position: relative;
+    left: 127px;
+}
+
+div.vrouw{
+    display: inline;
+    float: right;
+}
+
+div.inputoogkleur{
+    margin-top: 20px;
+    width: 380px;
+}
+.inputoogkleur select{
+    float: right;
+    width: 179px;
+}
+
+div.inputgeboortedatum{
+    margin-top: 20px;
+    width: 380px;
+}
+
+.inputgeboortedatum input{
+    float: right;
+    width: 176px;
+}
+
+div.inputbeschrijving{
+    width: 380px;
+    margin-top: 20px;
+}
+
+.inputbeschrijving textarea{
+    float: right;
+}
+
+div.inputeten{
+
+}
+
+div.section2{
+    width: 250px;
+    position: absolute;
+    top: 91px;
+    left: 430px;
+}
+
+.section2 ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.inputeten checkbox{
+
+}
+
+div.buttons{
+    width: 380px;
+    float: right;
+    padding: 10px;
+}

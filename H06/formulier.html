@@ -9,23 +9,23 @@
     </style>
 </head>
 <body>
-    <form action="https://www.savatarian.com/html5/form.php" method="get">
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
        <h2>Formulier Burton Education</h2>
         <ul class="ullistone">
             <li>
-                <div class="input">
+                <div class="naam">
                   <label for="voornaam">Voornaam:</label>
                   <input type="text" name="voornaam"><br>
                 </div>
             </li>
             <li>
-                <div class="input">
+                <div class="naam">
                 <label for="tussenvoegsel">Tussenvoegsel:</label>
                 <input type="text" name="tussenvoegsel">
                 </div>
             </li>
             <li>
-                <div class="input">
+                <div class="naam">
                  <label for="achternaam">Achternaam:</label>
                  <input type="text" name="achternaam">
                 </div>
@@ -33,18 +33,18 @@
             <li>
                 <div class="inputgeslacht">
                 <label for="geslacht">Geslacht:</label>
-                <input type="radio" name="geslacht" value="man"/>&nbsp;Man
-                <input type="radio" name="geslacht" value="vrouw"/>&nbsp;Vrouw
+                <div class="man"> <input type="radio" name="geslacht" value="man"/>&nbsp;Man</div>
+                <div class="vrouw"> <input type="radio" name="geslacht" value="vrouw"/>&nbsp;Vrouw</div>
                 </div>
             </li>
             <li>
-                <div class="inputooglkeur">
-                <label for="oogkleur"> oogkleur:</label>
-                <select name="oogkleur">
-                    <option>groen</option>
-                    <option>blauw</option>
-                    <option>bruin</option>
-                </select>
+                <div class="inputoogkleur">
+                    <label for="oogkleur"> oogkleur:</label>
+                        <select name="oogkleur">
+                            <option>groen</option>
+                            <option>blauw</option>
+                            <option>bruin</option>
+                        </select>
                 </div>
             </li>
             <li>
@@ -60,20 +60,20 @@
                 </div>
             </li>
         </div>
-         <div class="">
-            <li>
-                <div class="inputeten">
-                    <label for="lekkereten">Favoriete gerecht</label>
-                    <input type="checkbox" name="lekker-eten" value="brocoli">
-                    <span class="checkbox">Brocoli</span><br>
-                    <input type="checkbox" name="lekker-eten" value="pizza">
-                    <span class="checkbox">Pizza</span><br>
-                    <input type="checkbox" name="lekker-eten" value="hamburger">
-                    <span class="checkbox">Hamburger</span><br>
-                </div>
-            </li>
-         </div>
         </ul>
+        <div class="section2">
+        <ul>
+            <li>
+              <label for="lekkereten">Favoriete gerecht</label>
+                   <div class="checkbox"> <input type="checkbox" name="lekker-eten" value="brocoli"/>
+                       Brocoli</div><br>
+                   <div class="checkbox"> <input type="checkbox" name="lekker-eten" value="pizza">
+                    Pizza</div><br>
+                   <div class="checkbox"> <input type="checkbox" name="lekker-eten" value="hamburger">
+                Hamburger</div><br>
+            </li>
+        </ul>
+        </div>
         <br><br><br><br><br><br>
         <div class="buttons">
             <input type="submit" name="knop">
