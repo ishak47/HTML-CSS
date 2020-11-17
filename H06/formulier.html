@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="form.css">
     <meta charset="UTF-8">
     <title>formulier</title>
     <style>
-        div.form-group{
-            width: 500px;
-            padding: 20px;
-        }
-        input{
-            float: right;
-            width: 300px;
-        }
+
     </style>
 </head>
 <body>
-    <form action="https://www.savatarian.com/html5/form.php" method="post">
-     <div class="form-group">
-         <label for="voornaam">Voornaam</label>
-         <input type="text" name="voornaam">
-     </div>
-     <div class="form-group">
-         <label for="achternaam">Achternaam</label>
-         <input type="text" name="achternaam">
-     </div>
+    <form action="https://www.savatarian.com/html5/form.php" method="get">
+       <h2>Formulier Burton Education</h2>
+        <ul class="ullistone">
+            <li>
+                <div class="input">
+                  <label for="voornaam">Voornaam:</label>
+                  <input type="text" name="voornaam"><br>
+                </div>
+            </li>
+            <li>
+                <div class="input">
+                <label for="tussenvoegsel">Tussenvoegsel:</label>
+                <input type="text" name="tussenvoegsel">
+                </div>
+            </li>
+            <li>
+                <div class="input">
+                 <label for="achternaam">Achternaam:</label>
+                 <input type="text" name="achternaam">
+                </div>
+            </li>
+            <li>
+                <div class="inputgeslacht">
+                <label for="geslacht">Geslacht:</label>
+                <input type="radio" name="geslacht" value="man"/>&nbsp;Man
+                <input type="radio" name="geslacht" value="vrouw"/>&nbsp;Vrouw
+                </div>
+            </li>
+            <li>
+                <div class="inputooglkeur">
+                <label for="oogkleur"> oogkleur:</label>
+                <select name="oogkleur">
+                    <option>groen</option>
+                    <option>blauw</option>
+                    <option>bruin</option>
+                </select>
+                </div>
+            </li>
+            <li>
+                <div class="inputgeboortedatum">
+                    <label for="birthday"> Geboortedatum:</label>
+                    <input type="date" name="birthday" required>
+                </div>
+            </li>
+            <li>
+                <div class="inputbeschrijving">
+                    <label for="beschrijving"> omschrijving</label>
+                    <textarea name="beschrijving"/></textarea>
+                </div>
+            </li>
+        </div>
+         <div class="">
+            <li>
+                <div class="inputeten">
+                    <label for="lekkereten">Favoriete gerecht</label>
+                    <input type="checkbox" name="lekker-eten" value="brocoli">
+                    <span class="checkbox">Brocoli</span><br>
+                    <input type="checkbox" name="lekker-eten" value="pizza">
+                    <span class="checkbox">Pizza</span><br>
+                    <input type="checkbox" name="lekker-eten" value="hamburger">
+                    <span class="checkbox">Hamburger</span><br>
+                </div>
+            </li>
+         </div>
+        </ul>
+        <br><br><br><br><br><br>
+        <div class="buttons">
+            <input type="submit" name="knop">
+            <input type="reset">
+        </div>
     </form>
 </body>
 </html>

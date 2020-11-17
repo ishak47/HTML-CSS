@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+ h2{
+     padding:10px;
+ }
+
+ ul.ullistone{
+     list-style-type: none;
+     padding:0 ;
+ }
+
+ div.input{
+    width: 20px;
+ }
+
+ div.inputgeslacht{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+ div.inputooglkeur{
+
+ }
