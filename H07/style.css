@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
     background-color: rgb(193,240,223);
+    text-align: center;
 }
 
 body{
@@ -8,8 +13,19 @@ body{
     padding: 0px;
 }
 
+div#wrapper{
+    background-color: rgb(250,241,234);
+
+}
+
 img#logo{
     width: 320px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+
 }
 
 ul{
@@ -34,6 +50,7 @@ li a{
 @media all and (min-width: 550px) {
     ul{
         background-color:rgb(128,128,128) ;
+        border-top:1px solid white ;
     }
     li {
         display: inline-block;
@@ -60,7 +77,35 @@ section , footer{
     }
 }
 
+@media all and (min-width: 920px) {
+    section#nieuws{
+        width: 30%;
+        float: left;
+    }
+    section#instrumenten{
+        width: 70%;
+        float: right;
+    }
+
+    article{
+        display: inline-block;
+        width: 47%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even){
+        margin-right: 0px;
+    }
+}
+@media all and (min-width: 1200px) {
+    div#wrapper{
+        width: 1200px;
+        margin: auto;
+    }
+}
+
 footer{
+    clear: both;
     background-color: rgb(128,128,128);
     color: white;
 }
@@ -69,3 +114,4 @@ footer{
 footer h3{
     color: white;
 }
+
